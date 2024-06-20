@@ -69,7 +69,7 @@ const ContactContent = () => {
                     <span className="text-white">Make a Quote</span>
                     <h3 className="mt-1">
                       <Link className="text-white" href="/">
-                        info@ampro.com
+                        info@amprotech.co.nz
                       </Link>
                     </h3>
                   </div>

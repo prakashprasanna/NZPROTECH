@@ -147,7 +147,7 @@ const PricingThree = () => {
                 <div>
                   <h4 className="text-white mb-10">Premium Plan</h4>
                   <h2>
-                    $2999
+                    Call for quote
                   </h2>
                 </div>
                 <div

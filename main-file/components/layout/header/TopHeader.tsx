@@ -23,7 +23,7 @@ const TopHeader = () => {
               </svg>
 
               <Link href="/" className="ms-1">
-                info@ampro.com
+                info@amprotech.co.nz
               </Link>
             </li>
             <li className="ms-4">

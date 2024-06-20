@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "AMPRO",
-      url: "https://www.AMPRO.com",
+      url: "https://www.amprotech.co.nz",
     },
   ],
 };
