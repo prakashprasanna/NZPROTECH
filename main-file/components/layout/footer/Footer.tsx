@@ -54,7 +54,7 @@ const Footer = () => {
             data-aos-duration="1500"
           >
             <Link href="/" className="logo mb-30">
-              <Image src={Logo} alt="Image" priority />
+              <Image src={Logo} alt="Image" priority  unoptimized/>
             </Link>
             <p>
             We are your trusted partner for innovative software solutions, delivering tailored expertise to propel businesses forward in the digital age.

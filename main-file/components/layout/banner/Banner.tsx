@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import Line from "@/public/images/banner/banner-line.png";
+// import Line from "@/public/images/banner/banner-line.png";
 import LineTwo from "@/public/images/banner/banner-right-line3.png";
 import LineThree from "@/public/images/banner/banner-right-line4.png";
 import One from "@/public/images/banner/banner-regular-left-shape.png";
@@ -20,9 +20,9 @@ import Nine from "@/public/images/banner/banner-right-line4.png";
 const Banner = () => {
   return (
     <section className="banner-area">
-      <div className="banner__line">
+      {/* <div className="banner__line">
         <Image className="sway__animation" src={Line} alt="shape" priority />
-      </div>
+      </div> */}
       <div className=" banner__slider">
         <Swiper
           slidesPerView={1}

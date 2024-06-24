@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import svgLogo from "@/public/images/logo/logo.svg";
+import svgLogo from "@/public/images/logo/logo.png";
 import one from "@/public/images/menu/home1-image.jpg";
 import two from "@/public/images/menu/home2-image.jpg";
 import three from "@/public/images/menu/home3-image.jpg";
@@ -46,7 +46,7 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
             <li className="has-megamenu">
               <a
                 className={`drop ${isSubMenuButton("home")}`}
-                onClick={() => handleSubmenu("home")}
+                //onClick={() => handleSubmenu("home")}
               >
                 Home
               </a>
@@ -126,7 +126,7 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <a
                 className={`drop ${isSubMenuButton("pages")}`}
                 onClick={() => handleSubmenu("pages")}
@@ -159,7 +159,7 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                   <Link href="error">404 Error</Link>
                 </li>
               </ul>
-            </li>
+            </li> 
             <li>
               <a
                 className={`drop ${isSubMenuButton("blog")}`}
@@ -178,7 +178,7 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                   <Link href="blog-details">Blog Details</Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
               <Link href="contact">Contact</Link>
             </li>
@@ -186,17 +186,13 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
         </nav>
       </div>
       <ul className="info pt-40">
-        <li>
-          <i className="fa-solid primary-color fa-location-dot"></i>{" "}
-          <Link href="/">example@example.com</Link>
-        </li>
         <li className="py-2">
           <i className="fa-solid primary-color fa-phone-volume"></i>{" "}
           <Link href="tel:+642102651913">+642102651913</Link>
         </li>
         <li>
           <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
-          <Link href="/">info@example.com</Link>
+          <Link href="/">info@amprotech.co.nz</Link>
         </li>
       </ul>
       <div className="social-icon mt-20">
