@@ -31,9 +31,7 @@
     "sass": "^1.77.6",
     "typescript": "^5"
   },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+  "scripts": { 
+    "vercel-build": "npm run prepare && next build" 
   }
 }
