@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import One from "@/public/images/icon/section-title.png";
+import ContactForm from "./ContactForm";
 
 const ContactContent = () => {
   return (
@@ -151,44 +152,8 @@ const ContactContent = () => {
                 </p>
               </div>
               <div className="contact__form">
-                <form action="#">
-                  <div className="row">
-                    <div className="col-6">
-                      <label htmlFor="name">Your Name*</label>
-                      <input
-                        id="name"
-                        className="bg-transparent bor"
-                        type="text"
-                        placeholder="Your Name"
-                      />
-                    </div>
-                    <div className="col-6">
-                      <label htmlFor="email">Your Email*</label>
-                      <input
-                        className="bg-transparent bor"
-                        id="email"
-                        type="email"
-                        placeholder="Your Email"
-                      />
-                    </div>
-                  </div>
-                  <div className="text-area">
-                    <label htmlFor="massage">Write Message*</label>
-                    <textarea
-                      className="bg-transparent bor"
-                      id="massage"
-                      placeholder="Write Message"
-                    ></textarea>
-                  </div>
-                  <div className="btn-two">
-                    <span className="btn-circle"></span>
-                    <Link href="/" className="btn-one">
-                      Send Message{" "}
-                      <i className="fa-regular fa-arrow-right-long"></i>
-                    </Link>
-                  </div>
-                </form>
-              </div>
+              <ContactForm /> 
+            </div>
             </div>
           </div>
         </div>

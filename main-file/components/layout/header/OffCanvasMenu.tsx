@@ -126,41 +126,20 @@ const OffCanvasMenu = ({ toggleMenu, handleToggleMenu }: any) => {
                 </li>
               </ul>
             </li>
-            {/* <li>
+            <li>
               <a
                 className={`drop ${isSubMenuButton("pages")}`}
                 onClick={() => handleSubmenu("pages")}
               >
-                Pages
+                Pricing
               </a>
               <ul className={`sub-menu ${isSubMenuOpen("pages")}`}>
                 <li>
-                  <Link href="case">Case Study 01</Link>
-                </li>
-                <li>
-                  <Link href="case-2">Case Study 02</Link>
-                </li>
-                <li>
-                  <Link href="case-details">Case Study Details</Link>
-                </li>
-                <li>
-                  <Link href="team">Our Team</Link>
-                </li>
-                <li>
-                  <Link href="team-details">Team Details</Link>
-                </li>
-                <li>
                   <Link href="pricing">Pricing</Link>
                 </li>
-                <li>
-                  <Link href="faq">FAQ&apos;s</Link>
-                </li>
-                <li>
-                  <Link href="error">404 Error</Link>
-                </li>
               </ul>
-            </li> 
-            <li>
+            </li>
+            {/* <li>
               <a
                 className={`drop ${isSubMenuButton("blog")}`}
                 onClick={() => handleSubmenu("blog")}
