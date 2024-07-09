@@ -18,7 +18,7 @@ const ServiceSingle = () => {
               <div className="service-single__left-item">
                 <div className="image mb-50">
                   <Image src={One} alt="Image" priority />
-                  <div className="service-single__video-btn">
+                  {/* <div className="service-single__video-btn">
                     <div
                       className="video-btn video-pulse "
                       data-aos="zoom-in"
@@ -29,22 +29,14 @@ const ServiceSingle = () => {
                         <i className="fa-solid fa-play"></i>
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <h3 className="title mb-30">IT Management</h3>
                 <p className="mb-20">
-                  The is ipsum dolor sit amet consectetur adipiscing elit. Fusce
-                  is eleifend porta arcu In hac habitasse the platea thelorem
-                  turpoi dictumst. In lacus libero faucibus malesuada sagittis
-                  placerat eros sed istincidunt augue ac ante rutrum sed the is
-                  sodales augue consequat.
+                Our team specializes in IT management, which involves overseeing and optimizing an organization's technology resources and systems to ensure they align with business objectives. This encompasses managing hardware, software, networks, and data, while also ensuring robust security measures are in place to protect against cyber threats. 
                 </p>
                 <p>
-                  lacus sed pretium pretium justo. Integer is vitae venenatis
-                  lorem. Maecenas lacinia turpis the in nunc quam hendrerit
-                  scelerisque at finibus enim sagittis. Aliquam erat is volutpat
-                  nam nec purus at is orci volutpat semper vel id turpis In a
-                  malesuada arcu ac hendrerit.
+                Our IT management services include maintaining and upgrading technology infrastructure, providing technical support to users, managing IT budgets, and implementing new technologies to drive innovation. By effectively managing IT resources, our team enhances operational efficiency, supports business growth, and ensures the seamless functioning of all technological aspects within the organization.
                 </p>
                 <div className="row g-5 mt-40 mb-40 align-items-center">
                   <div className="col-lg-5">
@@ -77,187 +69,6 @@ const ServiceSingle = () => {
                     </div>
                   </div>
                 </div>
-                <p className="mb-40">
-                  Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore of magna aliqua. Ut enim ad minim veniam,
-                  made of owl the quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea dolor commodo consequat. Duis aute irure and
-                  dolor in reprehenderit.
-                </p>
-                <h3 className="title mb-30">Most Comment Question?</h3>
-                <p className="mb-30">
-                  The is ipsum dolor sit amet consectetur adipiscing elit. Fusce
-                  is eleifend porta arcu In hac habitasse the platea thelorem
-                  turpoi dictumst. In lacus libero faucibus malesuada sagittis
-                  placerat eros sed istincidunt augue ac ante rutrum sed the is
-                  sodales augue consequat.
-                </p>
-                <div className="accordion" id="accordionExample">
-                  <div
-                    className="accordion-item shadow border-none"
-                    data-aos="fade-down"
-                    data-aos-delay="0"
-                    data-aos-duration="1500"
-                  >
-                    <h2 className="accordion-header" id="headingOne">
-                      <button
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                        className={
-                          (imgTab == 0 ? "  " : " collapsed") +
-                          " accordion-button"
-                        }
-                        onClick={() => setImgTab(imgTab === 0 ? -1 : 0)}
-                      >
-                        Where should I incorporate my business?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseOne"
-                      className={`accordion-collapse collapse${
-                        imgTab === 0 ? " show " : ""
-                      }`}
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          It is a long established fact that a reader be
-                          distracted by the readable content of a page when
-                          looking a its layout. Many desktop publishing packages
-                          and web page editors now use Lorem Ipsum publishing
-                          packages and web page editors now use Lorem Ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="accordion-item shadow border-none"
-                    data-aos="fade-down"
-                    data-aos-delay="200"
-                    data-aos-duration="1500"
-                  >
-                    <h2 className="accordion-header" id="headingTwo">
-                      <button
-                        className={
-                          (imgTab == 1 ? "  " : " collapsed") +
-                          " accordion-button"
-                        }
-                        onClick={() => setImgTab(imgTab === 1 ? -1 : 1)}
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        What happens my free trial?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseTwo"
-                      className={`accordion-collapse collapse${
-                        imgTab === 1 ? " show " : ""
-                      }`}
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          It is a long established fact that a reader be
-                          distracted by the readable content of a page when
-                          looking a its layout. Many desktop publishing packages
-                          and web page editors now use Lorem Ipsum publishing
-                          packages and web page editors now use Lorem Ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="accordion-item shadow border-none"
-                    data-aos="fade-down"
-                    data-aos-delay="400"
-                    data-aos-duration="1500"
-                  >
-                    <h2 className="accordion-header" id="headingthree">
-                      <button
-                        className={
-                          (imgTab == 2 ? "  " : " collapsed") +
-                          " accordion-button"
-                        }
-                        onClick={() => setImgTab(imgTab === 2 ? -1 : 2)}
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapsethree"
-                        aria-expanded="false"
-                        aria-controls="collapsethree"
-                      >
-                        What is included in your services?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapsethree"
-                      className={`accordion-collapse collapse${
-                        imgTab === 2 ? " show " : ""
-                      }`}
-                      aria-labelledby="headingthree"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          It is a long established fact that a reader be
-                          distracted by the readable content of a page when
-                          looking a its layout. Many desktop publishing packages
-                          and web page editors now use Lorem Ipsum publishing
-                          packages and web page editors now use Lorem Ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="accordion-item shadow border-none"
-                    data-aos="fade-down"
-                    data-aos-delay="600"
-                    data-aos-duration="1500"
-                  >
-                    <h2 className="accordion-header" id="headingFour">
-                      <button
-                        className={
-                          (imgTab == 3 ? "  " : " collapsed") +
-                          " accordion-button"
-                        }
-                        onClick={() => setImgTab(imgTab === 3 ? -1 : 3)}
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour"
-                        aria-expanded="false"
-                        aria-controls="collapseFour"
-                      >
-                        What type of company is measured?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseFour"
-                      className={`accordion-collapse collapse${
-                        imgTab === 3 ? " show " : ""
-                      }`}
-                      aria-labelledby="headingFour"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          It is a long established fact that a reader be
-                          distracted by the readable content of a page when
-                          looking a its layout. Many desktop publishing packages
-                          and web page editors now use Lorem Ipsum publishing
-                          packages and web page editors now use Lorem Ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col-lg-4 order-1 order-lg-2">
@@ -287,7 +98,7 @@ const ServiceSingle = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="item sub-bg mb-30">
+                {/* <div className="item sub-bg mb-30">
                   <h4 className="mb-20">Opening Hours</h4>
                   <ul className="category">
                     <li className="secondary-color justify-content-start gap-3">
@@ -367,7 +178,7 @@ const ServiceSingle = () => {
                       Emergency: 24 hours
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

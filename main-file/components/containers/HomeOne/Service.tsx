@@ -9,6 +9,11 @@ import Four from "@/public/images/icon/service-icon1.png";
 import Five from "@/public/images/icon/service-icon4.png";
 import Six from "@/public/images/icon/service-icon3.png";
 import Seven from "@/public/images/icon/service-icon5.png";
+import Eight from "@/public/images/icon/service-icon2.png";
+import Nine from "@/public/images/icon/about-three-icon3.png";
+import Ten from "@/public/images/icon/service-two-icon5.png";
+import Eleven from "@/public/images/icon/about-three-icon2.png";
+
 
 const Service = () => {
   const [isOverviewOpen, setOverviewOpen] = useState(1);
@@ -153,8 +158,88 @@ const Service = () => {
                 <Link href="service-details">AI Chatbots</Link>
               </h4>
               <p>
-              AI chatbots are computer programs that use AI to converse with users via text or speech. They offer 24/7 support, scalability, and efficiency to enhance customer experiences and streamline operations. Overall, they are valuable tools for businesses.
+              AI chatbots converse with users via text or speech. They offer 24/7 support, scalability, and efficiency to enhance customer experiences and streamline operations. Overall, they are valuable tools for businesses.
               </p>
+            </div>
+          </div>
+        </div>
+        <div className="row g-4">
+          <div
+            className="col-lg-4 col-md-6 "
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+          >
+            <div
+              className={
+                "service__item " + (isOverviewOpen === 1 ? " active" : " ")
+              }
+              onMouseEnter={() => setOverviewOpen(1)}
+            >
+              <div className="service-shape">
+                <Image src={Three} alt="shape" priority />
+              </div>
+              <div className="service__icon">
+                <Image src={Eight} alt="icon" priority />
+              </div>
+              <h4>
+                <Link href="service-details">Cyber Security</Link>
+              </h4>
+              <p>
+              Our Cyber security team will make sure to protect computer systems, networks, and data from unauthorized access, theft, and damage. It involves using practices and technologies to defend against cyber threats like hacking, malware, and phishing, ensuring the confidentiality, integrity, and availability of information.              </p>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 "
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <div
+              className={
+                "service__item " + (isOverviewOpen === 2 ? " active" : " ")
+              }
+              onMouseEnter={() => setOverviewOpen(2)}
+            >
+              <div className="service-shape">
+                <Image src={Three} alt="shape" priority />
+              </div>
+              <div className="service__icon">
+                <Image src={Nine} alt="icon" priority />
+              </div>
+              <h4>
+                <Link href="service-details">Project Management</Link>
+              </h4>
+              <p>
+              Our team specializes in project management, which involves planning, organizing, and overseeing projects to ensure they are completed on time, within budget, and to the desired quality. We coordinate resources, manage risks, and facilitate communication to achieve project goals efficiently.              </p>
+            </div>
+          </div>
+          <div
+            className="col-lg-4 col-md-6 "
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            <div
+              className={
+                "service__item " + (isOverviewOpen === 2 ? " active" : " ")
+              }
+              onMouseEnter={() => setOverviewOpen(2)}
+            >
+              <div className="service-shape">
+                <Image src={Three} alt="shape" priority />
+              </div>
+              <div className="service__icon">
+                <Image src={Ten} alt="icon" priority />
+              </div>
+              <h4>
+                <Link href="service-details">UI/UX Design</Link>
+              </h4>
+              <p>
+              Our team specializes in UI/UX design, creating intuitive and visually appealing interfaces that enhance user experience. We focus on understanding user needs, crafting seamless interactions, and designing attractive layouts to ensure users can easily navigate and enjoy digital products.              </p>
             </div>
           </div>
         </div>
