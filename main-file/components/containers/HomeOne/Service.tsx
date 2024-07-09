@@ -11,8 +11,7 @@ import Six from "@/public/images/icon/service-icon3.png";
 import Seven from "@/public/images/icon/service-icon5.png";
 import Eight from "@/public/images/icon/service-icon2.png";
 import Nine from "@/public/images/icon/about-three-icon3.png";
-import Ten from "@/public/images/icon/service-two-icon5.png";
-import Eleven from "@/public/images/icon/about-three-icon2.png";
+import Ten from "@/public/images/icon/mobile-development.png";
 
 
 const Service = () => {
