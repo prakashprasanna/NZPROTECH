@@ -33,7 +33,7 @@ const ServiceSingle = () => {
                 </div>
                 <h3 className="title mb-30">IT Management</h3>
                 <p className="mb-20">
-                Our team specializes in IT management, which involves overseeing and optimizing an organization's technology resources and systems to ensure they align with business objectives. This encompasses managing hardware, software, networks, and data, while also ensuring robust security measures are in place to protect against cyber threats. 
+                Our team specializes in IT management, which involves overseeing and optimizing an organizations technology resources and systems to ensure they align with business objectives. This encompasses managing hardware, software, networks, and data, while also ensuring robust security measures are in place to protect against cyber threats. 
                 </p>
                 <p>
                 Our IT management services include maintaining and upgrading technology infrastructure, providing technical support to users, managing IT budgets, and implementing new technologies to drive innovation. By effectively managing IT resources, our team enhances operational efficiency, supports business growth, and ensures the seamless functioning of all technological aspects within the organization.
