@@ -112,7 +112,7 @@ const AboutThree = () => {
                 <div className="d-flex flex-wrap gap-2 align-items-center">
                   <Image src={Eight} alt="Image" priority />
                   <div className="info">
-                    <h5>Prakash</h5>
+                    <h5> </h5>
                     <span className="sm-font">Co, Founder</span>
                   </div>
                 </div>

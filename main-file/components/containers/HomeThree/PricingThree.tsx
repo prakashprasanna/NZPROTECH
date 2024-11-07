@@ -91,7 +91,7 @@ const PricingThree = () => {
                 <li>Security Management</li>
               </ul>
               <Link href="" className="btn-one d-block text-center">
-                Call +642102651913 
+                Call   
               </Link>
             </div>
           </div>
@@ -129,7 +129,7 @@ const PricingThree = () => {
                 <li>Security Management</li>
               </ul>
               <Link href="" className="btn-one d-block text-center">
-                Call +642102651913 
+                Call   
               </Link>
             </div>
           </div>
@@ -168,7 +168,7 @@ const PricingThree = () => {
                 <li>Security Management</li>
               </ul>
               <Link href="" className="btn-one d-block text-center">
-                Call +642102651913 
+                Call   
               </Link>
             </div>
           </div>

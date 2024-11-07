@@ -38,7 +38,7 @@ const ContactContent = () => {
                     <span className="text-white">Call Us 24/7</span>
                     <h3 className="mt-1">
                       <Link className="text-white" href="tel:+2085550112">
-                        +642102651913
+                        
                       </Link>
                     </h3>
                   </div>
@@ -102,7 +102,7 @@ const ContactContent = () => {
                     <span className="text-white">Location</span>
                     <h3 className="mt-1">
                       <Link className="text-white" href="tel:+2085550112">
-                        207 Larnach Rd Dunedin NZ
+                       
                       </Link>
                     </h3>
                   </div>

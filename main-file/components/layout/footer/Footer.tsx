@@ -155,7 +155,6 @@ const Footer = () => {
           >
             <h3 className="footer-title">Contact Us</h3>
             <p className="mb-20">
-              207 Larnach Rd, Waverley, Dunedin - 9013
             </p>
             <ul className="footer-contact">
               <li>
@@ -169,7 +168,7 @@ const Footer = () => {
                 <i className="fa-duotone fa-phone"></i>
                 <div className="info">
                   <h5>Phone Call:</h5>
-                  <p>+642102651913, +64225481635</p>
+                  <p></p>
                 </div>
               </li>
             </ul>

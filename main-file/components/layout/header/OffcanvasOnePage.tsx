@@ -151,7 +151,7 @@ const OffCanvasOnePage = ({ toggleMenu, handleToggleMenu }: any) => {
       <ul className="info pt-40">
         <li className="py-2">
           <i className="fa-solid primary-color fa-phone-volume"></i>{" "}
-          <Link href="tel:+642102651913">+642102651913</Link>
+          <Link href="tel: "> </Link>
         </li>
         <li>
           <i className="fa-solid primary-color fa-paper-plane"></i>{" "}

@@ -123,7 +123,7 @@ Our mission is to provide intelligent business solutions that empower our client
                 {/* <div className="d-flex gap-2 align-items-center">
                   <Image src={Six} alt="Image" priority />
                   <div className="info">
-                    <h5>Prakash</h5>
+                    <h5> </h5>
                     <span className="sm-font">Co, Founder</span>
                   </div>
                 </div> */}
